@@ -7,6 +7,7 @@ body{
     background: white;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .fondo{
@@ -46,7 +47,8 @@ body{
     margin:40px 100px 0 100px;
     padding: 20px 20px;
     border-radius: 3px;
-    background: rgba(128, 128, 128, .6);
+    background: rgba(128, 128, 128, .5);
+    cursor: pointer;
 }
 
 .fondo .botones .boton a{
@@ -57,6 +59,6 @@ body{
 }
 
 .fondo .botones .boton:hover{
-    background: rgba(128, 128, 128, .8);
+    background: rgba(128, 128, 128, .89);
     transition: all .6s ease;
 }
