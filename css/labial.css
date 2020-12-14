@@ -1,0 +1,40 @@
+body {
+    font-family: "montserrat", Arial;
+}
+
+.titulo {
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+}
+
+.img1 img {
+    height: 300px;
+    width: 450px;
+}
+
+.img2 img {
+    height: 300px;
+    width: 450px;
+}
+
+.img3 img {
+    height: 300px;
+    width: 450px;
+}
+
+.img4 img {
+    height: 300px;
+    width: 450px;
+}
+
+.img5 img {
+    height: 300px;
+    width: 450px;
+}
+
+.img6 img {
+    height: 300px;
+    width: 450px;
+}
