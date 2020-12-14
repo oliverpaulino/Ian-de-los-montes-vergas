@@ -1,0 +1,21 @@
+.redes p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    height: 150px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.img a img .bons {
+    border-radius: 20px;
+}
