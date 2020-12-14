@@ -13,7 +13,7 @@ body{
 .fondo{
     width: 100vw;
     height: 100vh;
-    background: url(/img/maria.jpg);
+    background: url(../img/maria.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center 0 ;

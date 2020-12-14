@@ -1,0 +1,42 @@
+.nosotros {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 60px;
+
+}
+
+.nosotros .visiones h3, .valores h3, .misiones h3{
+    font-size: 30px;
+    margin: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.nosotros .visiones, .nosotros .misiones, .nosotros .valores{
+    width: 20vw;
+    padding: 30px;
+    height: 70vh;
+    border-radius: 4px;
+    box-shadow: 4px 3px 12px rgba(128, 128, 128, .5);
+}
+
+.nosotros .visiones p, .valores p, .misiones p{
+    font-size: 20px;
+    text-align: justify;
+}
+.nosotros .visiones .boton, .valores .boton, .misiones .boton{
+    margin-top: 50px;
+    padding: 20px 15px;
+    text-align: center;
+    background: rgba(128, 128, 128, .5);
+}
+
+
+.nosotros .visiones .boton a, .valores .boton a, .misiones .boton a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+
+}
