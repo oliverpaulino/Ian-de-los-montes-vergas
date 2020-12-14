@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: "montserrat", Arial, Helvetica, sans-serif;
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+
+.fondo{
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/maria.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0 ;
+    margin:auto;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.fondo h2{
+    margin-top: -50px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 120px;
+    text-align: center;
+}
+.fondo p{
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+}
+
+.fondo .botones{
+    display: flex;
+    justify-content: center;
+}
+
+.fondo .botones .boton{
+    margin:40px 100px 0 100px;
+    padding: 20px 20px;
+    border-radius: 3px;
+    background: rgba(128, 128, 128, .6);
+}
+
+.fondo .botones .boton a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.fondo .botones .boton:hover{
+    background: rgba(128, 128, 128, .8);
+    transition: all .6s ease;
+}
