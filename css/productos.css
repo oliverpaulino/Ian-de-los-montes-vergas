@@ -1,0 +1,51 @@
+*{
+    font-family: "montserrat", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.fondo{
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/pruductos.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    flex-direction: column;
+}
+
+.fondo .titulo h2{
+    margin-top: -50px;
+    font-size: 85px;
+}
+
+.fondo .categorias1, .categorias2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90vw;
+    margin: 55px auto;
+}
+
+.categoria a{
+    text-decoration: none;
+    padding: 20px 35px;
+    color: black;
+    font-size: 27px;
+    font-weight: 600;
+    border: 1px solid #000;
+}
+
+
+
+
+
+
