@@ -13,13 +13,18 @@
 
 .img img {
     height: 150px;
-    margin: 20px;
+    margin: 50px 20px;
     padding: 20px;
 }
 .img .bons{
     height: 130px;
     margin: 20px;
     padding: 20px;
+}
+
+.img img:hover{
+    box-shadow: 1px 1px 10px 5px rgba(128, 128, 128, .5);
+    transition: all .6s ease;
 }
 
 .img img{
