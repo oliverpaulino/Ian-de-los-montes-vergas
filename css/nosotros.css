@@ -19,6 +19,8 @@
     height: 437.5px;
     border-radius: 4px;
     box-shadow: 4px 3px 12px rgba(128, 128, 128, .5);
+    background: #f4f4f4;
+    overflow: hidden;
 }
 
 .nosotros .visiones p, .valores p, .misiones p{
@@ -34,10 +36,19 @@
 .nosotros .visiones .boton a, .valores .boton a, .misiones .boton a{
     padding: 20px 15px;
     display: block;
-    background: rgba(128, 128, 128, .5);
+    background: #9f9f9f;
     text-decoration: none;
     color: white;
     font-size: 22px;
     text-align: center;
+    
+}
+
+
+
+.nosotros .visiones .boton a:hover, .valores .boton a:hover, .misiones .boton a:hover{
+
+    box-shadow: 4px 4px 12px rgba(128, 128, 128, .5);
+    transition: all .5s ease;
 
 }
