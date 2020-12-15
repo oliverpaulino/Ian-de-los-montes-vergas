@@ -85,9 +85,9 @@ a .labial1{
     text-decoration: none;
 }
 
-a .labial1:hover{
-    background: #f3f3f3;
-    opacity: .7;
+a .labial1:hover, .labial2:hover, .labial3:hover, .labial4:hover, .labial5:hover, .labial6:hover{
+    background: #eeeeee;
+    opacity: .8;
     transition: all .8s ease;
 }
 
