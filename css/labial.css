@@ -9,27 +9,42 @@ body {
     padding: 10px;
 }
 
+.labial1, .labial2, .labial3, .labial4,.labial5, .labial6 {
+    display: flex;
+    flex-direction: row;
+}
+
+.texto1{
+    width: 200px;
+}
+
 .img1 img {
     height: 300px;
     width: 450px;
+    margin-right: 20px;
+    
 }
 
 .img2 img {
     height: 300px;
+    margin-right: 20px;
     width: 450px;
 }
 
 .img3 img {
+    margin-right: 123px;
     height: 300px;
     width: 450px;
 }
 
 .img4 img {
+    margin-right: 20px;
     height: 300px;
     width: 450px;
 }
 
 .img5 img {
+    margin-right: 20px;
     height: 300px;
     width: 450px;
 }
@@ -37,4 +52,5 @@ body {
 .img6 img {
     height: 300px;
     width: 450px;
+    margin-right: 20px;
 }
