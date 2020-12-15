@@ -80,3 +80,18 @@ body {
     margin-right: 20px;
     border-radius: 25px;
 }
+
+a .labial1{
+    text-decoration: none;
+}
+
+a .labial1:hover{
+    background: #f3f3f3;
+    opacity: .7;
+    transition: all .8s ease;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
