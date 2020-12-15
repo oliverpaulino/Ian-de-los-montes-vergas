@@ -28,6 +28,11 @@ body{
 }
 
 
+.botones{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .botones a{
     text-decoration: none;
@@ -35,7 +40,7 @@ body{
     font-size: 18px;
     font-weight: 600;
     margin-right: 30px;
-    margin-top: ;
     padding: 15px 20px;
+    border: 1px solid black;
 }
 
