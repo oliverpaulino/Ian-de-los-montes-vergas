@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    font-family: "montserrat", Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.fondo{
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/fuma.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0 ;
+    margin:auto;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+}
+
+
+
+
+
+
+
+
+
+
+.titulo h3{
+    font-size: 50px;
+    text-align: center;
+}
+
+.meGusta, .recomendado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.par .meGusta img, .recomendado img{
+    width: 150px;
+    height: 150px;
+}
