@@ -9,8 +9,12 @@ body {
     padding: 10px;
 }
 
-.texto1 {
+.texto1, .texto3, .texto5 {
     padding-top: 120px;
+}
+
+.texto3 {
+    margin-left: -100px;
 }
 
 .labial1, .labial3, .labial5 {
@@ -23,7 +27,11 @@ body {
     flex-direction: row-reverse;
 }
 
-
+.texto2, .texto4, .texto6 {
+    padding-top: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 .img1, .img2, .img3, .img4, .img5, .img6 {
     padding: 20px;
