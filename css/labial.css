@@ -9,48 +9,63 @@ body {
     padding: 10px;
 }
 
-.labial1, .labial2, .labial3, .labial4,.labial5, .labial6 {
+.texto1 {
+    padding-top: 120px;
+}
+
+.labial1, .labial3, .labial5 {
     display: flex;
     flex-direction: row;
 }
 
-.texto1{
-    width: 200px;
+.img1, .img2, .img3, .img4, .img5, .img6 {
+    padding: 20px;`
+}
+
+
+
+.labial2, .labial4, .labial6 {
+    flex-direction: row-reverse;
 }
 
 .img1 img {
     height: 300px;
     width: 450px;
     margin-right: 20px;
-    
+    border-radius: 25px;
 }
 
 .img2 img {
     height: 300px;
     margin-right: 20px;
     width: 450px;
+    border-radius: 25px;
 }
 
 .img3 img {
     margin-right: 123px;
     height: 300px;
     width: 450px;
+    border-radius: 25px;
 }
 
 .img4 img {
     margin-right: 20px;
     height: 300px;
     width: 450px;
+    border-radius: 25px;
 }
 
 .img5 img {
     margin-right: 20px;
     height: 300px;
     width: 450px;
+    border-radius: 25px;
 }
 
 .img6 img {
     height: 300px;
     width: 450px;
     margin-right: 20px;
+    border-radius: 25px;
 }
