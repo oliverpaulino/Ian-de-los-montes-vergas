@@ -20,11 +20,13 @@ body {
 .labial1, .labial3, .labial5 {
     display: flex;
     flex-direction: row;
+    text-align: justify;
 }
 
 .labial2, .labial4, .labial6 {
     display: flex;
     flex-direction: row-reverse;
+    text-align: justify;
 }
 
 .texto2, .texto4, .texto6 {
