@@ -13,6 +13,10 @@ body{
     flex-direction: column;
     justify-content: ;
 }
+a{
+    text-decoration:none;
+    color:black;
+}
 
 .carrito1 {
     margin-left: 50px;
