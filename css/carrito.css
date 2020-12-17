@@ -72,3 +72,34 @@ a{
     
     padding: 40px;
 }
+
+.botones {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.boton1 a{
+    color: #fff;
+    background: cornflowerblue;
+    width: 170px;
+    margin-left: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.boton2 a{
+    color: #fff;
+    background: cornflowerblue;
+    width: 170px;
+    margin-left: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
